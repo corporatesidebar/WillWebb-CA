@@ -9,8 +9,7 @@ footer{height:70px;display:flex;align-items:center;justify-content:center;color:
 @media(max-width:900px){.site{width:100%}.hero{min-height:0;padding:24px 5% 36px}.hero-photo{opacity:.25;width:100%}.hero-photo:before{background:linear-gradient(90deg,#fff 0%,rgba(255,255,255,.88) 65%,rgba(255,255,255,.45) 100%)}.brand,.hero-copy,.contact{position:relative;left:auto;right:auto;top:auto}.brand{margin-bottom:28px}.hero-copy{width:100%;max-width:620px}.hero-copy h1{font-size:40px}.contact{width:100%;max-width:390px;margin-top:28px}.main-grid{grid-template-columns:1fr;padding:30px 5%;gap:12px}.impact{margin-top:15px}.personal{grid-template-columns:1fr 1fr;padding:28px 5%;gap:24px}.values{grid-column:1/-1}.photo{height:300px}}
 @media(max-width:600px){.brand-name{font-size:14px}.hero-copy h1{font-size:34px}.hero-copy p{font-size:14px}.story h2,.impact h2,.personal-copy h2,.values h2{font-size:28px}.personal{grid-template-columns:1fr}.photo{height:360px}.values-row{overflow-x:auto;grid-template-columns:repeat(5,minmax(74px,1fr))}.links{grid-template-columns:1fr}.links a+a{border-left:0;border-top:1px solid var(--line)}}
 
-
-/* Mobile-first refinement — 2026-08-31 */
+/* Mobile-only refinements; desktop remains canonical */
 @media(max-width:700px){
   body{overflow-x:hidden}
   .site{width:100%;max-width:none;overflow:visible}
